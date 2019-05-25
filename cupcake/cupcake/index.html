@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>Erica's Cupcakery</title>
+  <!--  Styles  -->
+  <link rel="stylesheet" href="stylesheet.css">
+  <!-- Script -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="index.js"></script>
+</head>
+<body>
+  <button onclick="myFunction4()" id="myButton"><h1> The #1 Bakery in PA!</h1></button>
+  <div class= "photo">
+    <img id="photo" src="http://i66.tinypic.com/331m0l0.jpg" width="200" height="200">
+  </div>
+  <h3 id="menu"> Menu </h3>
+  <div class= "header">
+    <ul>
+      <li>
+        <div id="frosted" class="popup" onclick="myFunction1()">
+          Frosted Creamcheese Cupcake $2.99
+          <span class="popuptext" id="myPopup1">Delicious!</span>
+        </div>
+      </li>
+      <li>
+        <div class="popup" onclick="myFunction2()">
+          Pumpkin Spice Cupcake $2.99
+          <span class="popuptext" id="myPopup2">Yum!</span>
+        </div>
+      </li>
+      <li>
+        <div class="popup" onclick="myFunction3()">
+          Caramel Brulee Cupcake $2.99
+          <span class="popuptext" id="myPopup3">Nice!</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="checkout">
+    <img src="https://images.unsplash.com/photo-1526614180703-827d23e7c8f2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=04fecbfafaa59e42f1f6429cdc0d68c1&auto=format&fit=crop&w=975&q=80" id="sp">
+    <h1 class="title">Checkout</h1>
+    <p class="price" data-price="2.99">$2.99 per Cupcake</p>
+    <p class="description">Quantity:</p>
+    <input type="text" class="quantity" value="1">
+    <p class="total">Total: <span id="total">$2.99</span></p>
+    <button id="submit" class="btn">Submit Order</button>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+/***** New Page *****/
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+    height: 400px;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+body {
+    background: url('../img/164.jpg');
+    background-size: cover;
+}
+#home2 {
+  margin-top: 100px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+#img{
+  float: left;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 500px;
+}
+
+#info{
+  float: left;
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 500px;
+}
+#img img{
+  height: 300px;
+  padding-top: 95px;
+}
+
+h1 {
+  font-family: 'Overlock';
+  font-size: 36px;
+  text-align: center;
+  color: black;
+  padding-top: 70px;
+}
+h2{
+  font-family: 'Overlock';
+  font-size: 26px;
+  text-align: center;
+  color: black;
+  width: 500px;
+  margin-left: 30px;
+}
+
+nav {
+    clear: both;
+    padding-top: 30px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding-right: 30px;
+    font-family: 'Ovo';
+    font-weight: bold;
+}

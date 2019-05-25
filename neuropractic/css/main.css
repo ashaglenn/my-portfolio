@@ -1,0 +1,78 @@
+/***** New Page *****/
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+    height: 400px;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+body {
+    background: url('../img/116.jpg');
+    background-size: cover;
+
+}
+#home2 {
+margin: auto;
+background-color: rgba(255, 255, 255, 0.5);
+margin-top: 100px;
+}
+#neuroimg{
+  float: left;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 0px;
+}
+#neuroinfo{
+  float:left;
+  margin:auto;
+background-color: rgba(255, 255, 255, 0.5);
+  padding-top: 60px;
+  padding-bottom: 0px;
+}
+#neuroimg img{
+  height: 300px;
+  width: 500px;
+
+}
+
+h1 {
+  font-family: 'Overlock';
+  font-size: 36px;
+  text-align: center;
+  color: black;
+  margin-top:25px;
+}
+h2{
+  font-family: 'Overlock';
+  font-size: 26px;
+  text-align: center;
+  color: black;
+  width: 350px;
+  padding-top: 10px;
+  margin-left: 120px;
+}
+
+nav {
+    clear: both;
+    padding-top: 30px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding-right: 30px;
+    font-family: 'Ovo';
+    font-weight: bold;
+}

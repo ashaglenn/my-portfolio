@@ -1,0 +1,123 @@
+/***** BASE STYLES *****/
+body { font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: auto;
+  }
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 399px;
+    float: left;
+  }
+
+
+/***** Header Section *****/
+
+header h1 {
+    font-weight: bold;
+    font-size: 25px;
+}
+header h1 span {
+    color: #77a466
+}
+#ph a {
+  color: #77a466;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0 10px;
+  display: inline-block;
+}
+#ph h3{
+  text-align: center;
+}
+nav {
+    float: right;
+    color: #77a466;
+    padding-top: 10px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+   color: #77a466;
+   font-weight: bold;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-size: 14px;
+   padding: 0 10px;
+}
+
+/***** Picture *****/
+
+img {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+
+
+/***** Welcome Section *****/
+
+
+main h2 {
+    color: #77a466;
+    font-weight: bold;
+}
+
+main h3 {
+    font-weight: bold;
+}
+
+#welcome {
+  border-bottom: .3px solid black;
+}
+
+/***** Specials, Reviews, Contact Section *****/
+
+#specials p {
+  color: #77a466;
+}
+
+#reviews {
+    border-right: .3px solid black;
+    border-left: .3px solid black;
+}
+
+#specials {
+}
+#contact {
+}
+
+
+#specials h3,
+#reviews h3,
+#contact h3 {
+  padding: 10px 30px 0px 30px;
+}
+
+#specials p,
+#reviews p,
+#contact p {
+  padding: 10px 30px 0px 30px;
+}
+/***** Footer Section *****/
+
+#footer h2 span {
+   color: #77a466;
+   font-family: 'Pacifico';
+}
+#footer h2 {
+   color: black;
+}
+#footer{
+  clear: both;
+  text-align: center;
+  border-top: .3px solid black;
+}
