@@ -31,7 +31,28 @@ var partyEvent = function()
 
 partyTimeButton.addEventListener("click", partyEvent);
 
-
+// ADDED BELOW `var partyTimeButton`
+var napTimeSelector = document.getElementById("napTimeSelector");
+var lunchTimeSelector = document.getElementById("lunchTimeSelector");
+var wakeUpTimeSelector = document.getElementById("wakeUpTimeSelector");
+ 
+//ADDED BELOW `var partyEvent` function
+var lunchEvent = function() {
+    lunchTime = lunchTimeSelector.value;
+};
+ 
+var wakeUpEvent = function() {
+    wakeupTime = wakeUpTimeSelector.value;
+};
+ 
+var napEvent = function() {
+    napTime = napTimeSelector.value;
+};
+ 
+//ADDED BELOW `partyTimeButton` event listener
+napTimeSelector.addEventListener('change', napEvent);
+lunchTimeSelector.addEventListener('change', lunchEvent);
+wakeUpTimeSelector.addEventListener('change', wakeUpEvent);
 
 
 var updateClock = function (){
